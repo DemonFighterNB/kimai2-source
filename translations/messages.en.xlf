@@ -197,7 +197,7 @@
       </trans-unit>
       <trans-unit id="IeshU90" resname="customers">
         <source>customers</source>
-        <target>Customers</target>
+        <target>Client</target>
       </trans-unit>
       <trans-unit id="JXfA9Ve" resname="projects">
         <source>projects</source>
@@ -375,7 +375,7 @@
       </trans-unit>
       <trans-unit id="Z8a2kUf" resname="label.customer">
         <source>label.customer</source>
-        <target>Customer</target>
+        <target>Client</target>
       </trans-unit>
       <trans-unit id="D2N6_cP" resname="label.email">
         <source>label.email</source>
@@ -895,7 +895,7 @@
       </trans-unit>
       <trans-unit id="tnD6aPj" resname="stats.customerTotal">
         <source>stats.customerTotal</source>
-        <target>Customers</target>
+        <target>Clients</target>
       </trans-unit>
       <trans-unit id="unC5MXv" resname="stats.percentUsed">
         <source>stats.percentUsed</source>
@@ -1030,7 +1030,7 @@
       </trans-unit>
       <trans-unit id="Q9ykNhO" resname="invoice.signature_customer">
         <source>invoice.signature_customer</source>
-        <target>Confirmation: Date / Customer's name / Signature</target>
+        <target>Confirmation: Date / Client's name / Signature</target>
       </trans-unit>
       <trans-unit id="c3d6p33" resname="invoice.total_working_time">
         <source>invoice.total_working_time</source>

@@ -1,0 +1,4 @@
+parameters:
+    ...
+    # SSL Info
+    ca_cert: /etc/my.cnf.d/certs/ca-cert.pem

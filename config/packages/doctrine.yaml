@@ -4,7 +4,7 @@ parameters:
     # environment variables are not available yet.
     # You should not need to change this value.
     env(DATABASE_URL): ''
-    env(DATABASE_VERSION): ~
+    env(DATABASE_VERSION): ~	
 
 doctrine:
     dbal:
@@ -19,6 +19,8 @@ doctrine:
                 # for null columns with MariaDB. Each migration tries to convert EVERY nullable column.
                 server_version: '%env(string:DATABASE_VERSION)%'
                 charset: utf8mb4
+                options:
+                    MYSQL_ATTR_SSL_CA: '%ca_cert%'
                 default_table_options:
                     charset: utf8mb4
                     collate: utf8mb4_unicode_ci
