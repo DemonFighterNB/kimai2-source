@@ -20,8 +20,8 @@ doctrine:
                 server_version: '%env(string:DATABASE_VERSION)%'
                 charset: utf8mb4
                 options:
-                    1001: true
-                    1009: '/etc/certificates/DigiCertGlobalRootCA.crt.pem'
+                    !php/const:PDO::MYSQL_ATTR_SSL_CA: '/etc/certificates/DigiCertGlobalRootCA.crt.pem'
+                    !php/const:PDO::MYSQL_ATTR_SSL_VERIFY_SERVER_CERT: false
                 default_table_options:
                     charset: utf8mb4
                     collate: utf8mb4_unicode_ci
