@@ -20,7 +20,7 @@ doctrine:
                 server_version: '%env(string:DATABASE_VERSION)%'
                 charset: utf8mb4
                 options:
-                    MYSQL_ATTR_SSL_CA: '%ca_cert%'
+                    MYSQL_ATTR_SSL_CA: '/etc/certificates/DigiCertGlobalRootCA.crt.pem'
                 default_table_options:
                     charset: utf8mb4
                     collate: utf8mb4_unicode_ci
